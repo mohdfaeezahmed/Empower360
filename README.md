@@ -64,3 +64,37 @@ Empower360/
          ├─ Contact.jsx
          ├─ Reviews.jsx
          └─ NotFound.jsx
+
+
+
+# Empower360 (React + Node + MySQL)
+
+This repository contains a complete full-stack implementation of the Empower360 website. It ships with 300+ Indian policy records across categories (finance, education, age, gender, healthcare, worker rights).
+
+
+# 1) Start MySQL (DB Access can't be provided :) sorry! )
+
+# 2) Backend
+cd backend
+npm install
+cp .env.example .env 
+npm run seed 
+npm run dev 
+
+# 3) Frontend
+cd ../frontend
+npm install
+cp .env.example .env
+npm run dev 
+
+# 4) For day to day setups 
+
+cd ../frontend #make sure the .env matches with backend
+npm run dev
+
+cd backend  #make sure the .env matches with frontend
+npm run dev   
+
+
+
+
